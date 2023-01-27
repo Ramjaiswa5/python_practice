@@ -19,5 +19,4 @@ int main() {
     else{
          cout<<n<<" is not a prime number "<<endl;
     }    
-    
 }

@@ -12,15 +12,12 @@ int main() {
         }
         
     }
-    if(n==1){
-         cout<<n<<" is not a prime number "<<endl;
-    }
-    else if (x!=0)
+    if (n>1 && x==0)
     {
-        cout<<n<<" is not a prime number "<<endl;
+        cout<<n<<" is a prime number "<<endl;
     }
     else{
-         cout<<n<<" is a prime number "<<endl;
+         cout<<n<<" is not a prime number "<<endl;
     }    
     
 }

@@ -47,5 +47,4 @@ int main(){
     else{
         cout<<key<<" is not present in an array  "<<endl;
     }
-
 }

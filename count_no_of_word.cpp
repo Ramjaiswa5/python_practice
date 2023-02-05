@@ -3,10 +3,12 @@
 using namespace std;
 int main ()
 {
-    char str[50];
+    string str;
     int count = 0, i; 
     cout << "Enter a string : ";
-    gets(str);
+    getline(cin,str);
+    cout<<"your string is "<<endl;
+    cout<<str<<endl; 
     for (i = 0; str[i] != '\0';i++)
     {
         if (str[i] == ' ')

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 int main(){
-    int len,count=0,ans=0;
+    int len,count=0,ans=0,mostOccur;
     cout<<"enter the length of an array"<<endl;
     cin>>len;
     int array[100];
@@ -18,11 +18,13 @@ int main(){
             }
         }
         if(count>ans){
+            mostOccur=array[i];
             ans=count;
         }
         count=0;
         
     }
-    cout<<ans;    
+    cout<<"most occurence is "<<mostOccur<<endl;
+    cout<<"number of occurrence "<<ans;    
 
 }

@@ -1,7 +1,7 @@
 #include<iostream>
 using namespace std;
 
-void reverse(char name[],int n){
+void reverse(string& name,int n){
     int start=0;
     int end=n-1;
 
@@ -12,24 +12,16 @@ void reverse(char name[],int n){
     }
 }
 
-
-int lengthString(char name[]) {
-    int length=0;
-    for(int i=0; name[i] != '\0'; i++){
-        length++;
-    }
-    return length;
-}
-
 int main() {
-    char name[20];
+    string name,temp;
     int len;
-    cout<<"enter your name "<<endl;
-    cin>>name;
-    cout<<"your name is "<<name<<endl;
-    len=lengthString(name);
+    cout<<"enter your string "<<endl;
+    getline(cin,name);
+    temp = name;
+    cout<<"your string is "<<name<<endl;
+    len=temp.length();
     cout<<"length of "<<name<<" is "<<len<<endl;   
-    reverse(name,len);
-    cout<<"reverse is "<<name<<endl;
+    reverse(temp,len);
+    cout<<"reverse of "<<name<<" is "<<temp<<endl;
 
 }

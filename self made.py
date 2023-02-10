@@ -1,0 +1,8 @@
+print("THINK A NUMBER IN YOUR MIND \n")
+print("NOW ADD SAME NUMBER AND REMEMBER THE TOTAL \n")
+a = int(input("enter any number and add it into your total "))
+print("DIVIDE THE TOTAL SUM BY 2 \n")
+b=str(input("type ok if you are done with calculation "))
+print("\nNOW SUBTRACT FROM TOTAL WHATEVER YOU CHOSE THE NUMBER IN THE BEGINING \n")
+b=str(input("type ok if you are done with calculation "))
+print("\nTHE ANSWER LEFT IN YOUR MIND IS",a/2)    

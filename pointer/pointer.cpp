@@ -7,7 +7,7 @@ int main(){
     cout<<"enter the number ";
     cin>>num;
     int *p = &num;
-    cout<<"you have enter "<<*p<<endl;
+    cout<<"the number is "<<*p<<endl;
     char *c = &ch;
     cout<<"your character is "<<*c<<endl;
     cout<<"the address of "<<num<<" is "<<p<<endl;

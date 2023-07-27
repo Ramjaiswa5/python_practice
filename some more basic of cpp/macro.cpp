@@ -7,4 +7,6 @@ int main(){
     double area = PI*x*x;
 
     cout<<"area of a circle is "<<area;
+
+    return 0;
 }
